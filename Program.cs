@@ -20,17 +20,17 @@ namespace Ex3_Laborator5_
             int aparitiiCaracter = NumerotareCaracter(sir, caracter);
             Console.WriteLine($"Caracterul '{caracter}' a aparut de {aparitiiCaracter} ori in sirul introdus.", caracter, aparitiiCaracter);
         }
-        static int NumerotareCaracter(string sir,char caracter)
+        static int NumerotareCaracter(string sir, char caracter)
         {
             int numerotare = 0;
             foreach (char simbol in sir)
             {
-                if (simbol==caracter)
+                if (simbol == caracter)
                 {
                     numerotare++;
                 }
             }
-            return numerotare; 
+            return numerotare;
         }
     }
 }
